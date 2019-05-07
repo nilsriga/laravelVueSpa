@@ -14,3 +14,4 @@ nginx.conf
 Procfile
 dependanciesVECAS
 docker-compose.yml
+docker.ignore
