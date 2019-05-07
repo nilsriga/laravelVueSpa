@@ -12,6 +12,6 @@ yarn-error.log
 nginx.conf
 /docker
 Procfile
-dependanciesVECAS
+dependanciesVECAS.txt
 docker-compose.yml
 docker.ignore
