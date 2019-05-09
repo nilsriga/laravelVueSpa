@@ -19,11 +19,7 @@
                 Single Page Application
             </p>
             <p>
-<<<<<<< HEAD
-                live/master branch
-=======
-                this is beta brach
->>>>>>> beta branch
+                this is a remote beta tree master branch
             </p>
         </div>
     </div>
