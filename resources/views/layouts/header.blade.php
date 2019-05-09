@@ -16,7 +16,10 @@
                 My Laravel-Vue
             </p>
             <p class="subtitle">
-                Single Page Application BETA
+                Single Page Application
+            </p>
+            <p>
+                live/master branch
             </p>
         </div>
     </div>
