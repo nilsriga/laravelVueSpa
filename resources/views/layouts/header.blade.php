@@ -19,7 +19,11 @@
                 Single Page Application
             </p>
             <p>
+<<<<<<< HEAD
                 live/master branch
+=======
+                this is beta brach
+>>>>>>> beta branch
             </p>
         </div>
     </div>
