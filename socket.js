@@ -4,7 +4,7 @@ var io = require('socket.io')(server);
 
 var Redis = require('ioredis');
 var redisNewMessage = new Redis();
-var redisUserEntered = new Redis();
+var redisUserEntered = new Redis('https://beta.spa-laravel-5-8.tk');
 
 redisNewMessage.subscribe('post-channel', function() {
     console.log('connected to new message channel');
