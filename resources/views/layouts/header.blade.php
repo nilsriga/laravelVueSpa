@@ -19,7 +19,7 @@
                 Single Page Application
             </p>
             <p>
-                BETA for github
+                BETA for server
             </p>
         </div>
     </div>
