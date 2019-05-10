@@ -188,8 +188,7 @@ __webpack_require__.r(__webpack_exports__);
       return _this.statuses = statuses;
     });
     socket.on('post-channel:App\\Events\\PostSubmitted', function (data) {
-      console.log(data.post);
-      this.addStatus(data.post);
+      console.log(data.post); // this.addStatus(data.post);
     }.bind(this)); // this is the same
     // Status.all()
     //     .then(({data}) => this.statuses = data);
@@ -789,7 +788,7 @@ var render = function() {
             ])
           }),
           _vm._v(" "),
-          _c("add-to-stream")
+          _c("add-to-stream", { on: { completed: _vm.addStatus } })
         ],
         2
       )

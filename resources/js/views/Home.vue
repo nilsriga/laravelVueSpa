@@ -31,7 +31,7 @@
 
                 </div>
 
-                <add-to-stream></add-to-stream>
+                <add-to-stream v-on:completed="addStatus"></add-to-stream>
 
             </div>
         </div>
@@ -70,7 +70,7 @@
 
             socket.on('post-channel:App\\Events\\PostSubmitted', function(data) {
                 console.log(data.post);
-                this.addStatus(data.post);
+                // this.addStatus(data.post);
                 
             }.bind(this))
             // this is the same
