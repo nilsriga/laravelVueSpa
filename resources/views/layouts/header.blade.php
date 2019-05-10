@@ -19,7 +19,7 @@
                 Single Page Application
             </p>
             <p>
-                MASTER for server
+                MASTER for live master
             </p>
         </div>
     </div>
