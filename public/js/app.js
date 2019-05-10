@@ -847,7 +847,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-windwo.socket = io('https://192.168.10.10:3000');
+window.socket = io('https://192.168.10.10:3000');
 window.Vue = vue__WEBPACK_IMPORTED_MODULE_0___default.a;
 window.axios = axios__WEBPACK_IMPORTED_MODULE_2___default.a;
 window.Form = _utilities_Form__WEBPACK_IMPORTED_MODULE_3__["default"];
