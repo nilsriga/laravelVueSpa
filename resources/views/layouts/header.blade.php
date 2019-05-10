@@ -19,7 +19,7 @@
                 Single Page Application
             </p>
             <p>
-                MASTER on server
+                MASTER for github
             </p>
         </div>
     </div>
