@@ -19,7 +19,7 @@
                 Single Page Application
             </p>
             <p>
-                this is a remote beta tree master branch
+                MASTER on server
             </p>
         </div>
     </div>
