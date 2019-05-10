@@ -4,7 +4,7 @@ import axios from 'axios';
 import form from './utilities/Form';
 
 
-window.socket = io('https://beta.spa-laravel-5-8:3000');
+window.socket = io('https://beta.spa-laravel-5-8.tk:3000');
 window.Vue = Vue;
 window.axios = axios;
 window.Form = form;
