@@ -3,7 +3,7 @@ import VueRouter from 'vue-router';
 import axios from 'axios';
 import form from './utilities/Form';
 
-window.socket = io('spa-laravel-5-8.tk:6379');
+window.socket = io('localhost:6379');
 window.Vue = Vue;
 window.axios = axios;
 window.Form = form;
