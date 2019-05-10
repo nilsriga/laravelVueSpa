@@ -165,7 +165,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var socket = io('http://192.168.10.10:3000');
+var socket = io('https://192.168.10.10:3000');
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {

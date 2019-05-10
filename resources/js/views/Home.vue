@@ -43,7 +43,7 @@
     import Status from '../models/Status';
     import AddToStream from '../components/AddToStream.vue'
 
-    var socket = io('http://192.168.10.10:3000');
+    var socket = io('https://192.168.10.10:3000');
 
     export default {
         data() {
