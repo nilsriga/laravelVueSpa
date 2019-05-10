@@ -3,8 +3,9 @@ import VueRouter from 'vue-router';
 import axios from 'axios';
 import form from './utilities/Form';
 
+var host = env(APP_URL)+ ":6379";
 
-window.socket = io('env(APP_URL):6379');
+window.socket = io(host);
 window.Vue = Vue;
 window.axios = axios;
 window.Form = form;
