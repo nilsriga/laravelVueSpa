@@ -19,7 +19,7 @@
                 Single Page Application
             </p>
             <p>
-                MASTER for github
+                BETA for github
             </p>
         </div>
     </div>
