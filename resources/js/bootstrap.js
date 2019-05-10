@@ -4,7 +4,7 @@ import axios from 'axios';
 import form from './utilities/Form';
 
 
-window.socket = io('localhost:3000');
+window.socket = io('localhost:6379');
 window.Vue = Vue;
 window.axios = axios;
 window.Form = form;
