@@ -1,4 +1,4 @@
-var server = require('https').Server();
+var server = require('http').Server();
 var io = require('socket.io')(server);
 
 
