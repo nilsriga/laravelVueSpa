@@ -3,7 +3,7 @@ import VueRouter from 'vue-router';
 import axios from 'axios';
 import form from './utilities/Form';
 
-window.socket = io('127.0.0.1:6379');
+window.socket = io('127.0.0.1:3000');
 window.Vue = Vue;
 window.axios = axios;
 window.Form = form;
