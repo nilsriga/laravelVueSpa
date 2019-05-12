@@ -25,11 +25,17 @@ redisUserEntered.on('message', function (channel, message) {
     io.emit(channel + ":" + message.event, message.data);
 })
 
+server.listen(3000, function () {
+    console.log(server);
+    console.log(io);
+    console.log(redisNewMessage);
+    console.log(redisUserEntered);
+    console.log(Redis);
+};
+
 // redisNewMessage.on('message', function (channel, message) {
 //     message = JSON.parse(message);
 //     // console.log(channel, message)
 //     // console.log(messageContent.event, message.data);
 //     io.emit(channel + ':' + message.event, message.data);
 // });
-
-server.listen(3000);
