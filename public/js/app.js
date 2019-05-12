@@ -846,7 +846,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-window.socket = io('spa-laravel-5-8.tk:443');
+window.socket = io('http://' + window.location.hostname + ':3000', {
+  reconnect: true
+});
 window.Vue = vue__WEBPACK_IMPORTED_MODULE_0___default.a;
 window.axios = axios__WEBPACK_IMPORTED_MODULE_2___default.a;
 window.Form = _utilities_Form__WEBPACK_IMPORTED_MODULE_3__["default"];
