@@ -32,4 +32,4 @@ redisUserEntered.on('message', function (channel, message) {
 //     io.emit(channel + ':' + message.event, message.data);
 // });
 
-server.listen(80, 'spa-laravel-5-8.tk');
+server.listen(443, 'spa-laravel-5-8.tk');
