@@ -32,4 +32,4 @@ redisUserEntered.on('message', function (channel, message) {
 //     io.emit(channel + ':' + message.event, message.data);
 // });
 
-server.listen(3000, "0.0.0.0");
+server.listen(3000, "127.0.0.1");
