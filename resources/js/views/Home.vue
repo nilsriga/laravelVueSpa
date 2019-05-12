@@ -31,7 +31,7 @@
 
                 </div>
 
-                <add-to-stream v-on:completed="addStatus"></add-to-stream>
+                <add-to-stream></add-to-stream>
 
             </div>
         </div>
@@ -42,8 +42,6 @@
     import moment from 'moment';
     import Status from '../models/Status';
     import AddToStream from '../components/AddToStream.vue'
-
-    var socket = io('redis://h:p51cfbbe766cb076f687941b197b9d95a81ab67c9daf49845ffba9f22ad3ea8d3@ec2-99-81-167-43.eu-west-1.compute.amazonaws.com:6639');
 
     export default {
         data() {

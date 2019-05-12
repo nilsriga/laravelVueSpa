@@ -93,7 +93,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-var socket = io('redis://h:p51cfbbe766cb076f687941b197b9d95a81ab67c9daf49845ffba9f22ad3ea8d3@ec2-99-81-167-43.eu-west-1.compute.amazonaws.com:6639');
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -102,7 +101,6 @@ var socket = io('redis://h:p51cfbbe766cb076f687941b197b9d95a81ab67c9daf49845ffba
   },
   created: function created() {
     socket.on("user-entered-chat-channel:App\\Events\\UserEnteredChat", function (data) {
-      console.log('amazon connect');
       this.currentUsers.unshift(data.userIdentifiers);
     }.bind(this));
   }
@@ -166,7 +164,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var socket = io('redis://h:p51cfbbe766cb076f687941b197b9d95a81ab67c9daf49845ffba9f22ad3ea8d3@ec2-99-81-167-43.eu-west-1.compute.amazonaws.com:6639');
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -792,7 +789,7 @@ var render = function() {
             ])
           }),
           _vm._v(" "),
-          _c("add-to-stream", { on: { completed: _vm.addStatus } })
+          _c("add-to-stream")
         ],
         2
       )
@@ -850,6 +847,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+window.socket = io('https://' + window.location.hostname, {
+  reconnect: true
+});
 window.Vue = vue__WEBPACK_IMPORTED_MODULE_0___default.a;
 window.axios = axios__WEBPACK_IMPORTED_MODULE_2___default.a;
 window.Form = _utilities_Form__WEBPACK_IMPORTED_MODULE_3__["default"];
@@ -1080,6 +1080,7 @@ var routes = [{
 }];
 /* harmony default export */ __webpack_exports__["default"] = (new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
   routes: routes,
+  mode: 'history',
   linkActiveClass: 'is-active'
 }));
 

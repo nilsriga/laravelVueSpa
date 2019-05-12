@@ -1,9 +1,9 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import axios from 'axios';
-import form from './utilities/Form'
+import form from './utilities/Form';
 
-
+window.socket = io('https://'+ window.location.hostname, {reconnect: true});
 window.Vue = Vue;
 window.axios = axios;
 window.Form = form;
