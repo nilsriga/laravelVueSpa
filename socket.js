@@ -31,7 +31,7 @@ server.listen(3000, function () {
     console.log(redisNewMessage);
     console.log(redisUserEntered);
     console.log(Redis);
-};
+});
 
 // redisNewMessage.on('message', function (channel, message) {
 //     message = JSON.parse(message);
