@@ -25,7 +25,7 @@ redisUserEntered.on('message', function (channel, message) {
     io.emit(channel + ":" + message.event, message.data);
 })
 
-server.listen(3000, 'beta.spa-laravel-5-8.tk');
+server.listen(443);
 
 // redisNewMessage.on('message', function (channel, message) {
 //     message = JSON.parse(message);
