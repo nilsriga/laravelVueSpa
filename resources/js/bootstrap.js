@@ -3,7 +3,7 @@ import VueRouter from 'vue-router';
 import axios from 'axios';
 import form from './utilities/Form';
 
-window.socket = io('https://'+ window.location.hostname +':80', {reconnect: true});
+window.socket = io('https://'+ window.location.hostname +':443', {reconnect: true});
 window.Vue = Vue;
 window.axios = axios;
 window.Form = form;

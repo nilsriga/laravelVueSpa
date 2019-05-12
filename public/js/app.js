@@ -846,7 +846,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-window.socket = io('https://' + window.location.hostname + ':80', {
+window.socket = io('https://' + window.location.hostname + ':443', {
   reconnect: true
 });
 window.Vue = vue__WEBPACK_IMPORTED_MODULE_0___default.a;
