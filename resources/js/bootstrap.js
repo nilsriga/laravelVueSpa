@@ -8,7 +8,7 @@ window.Vue = Vue;
 window.axios = axios;
 window.Form = form;
 
-Vue.use(VueRouter);
+Vue.use(VueRouter({history: true}));
 
 window.axios.defaults.headers.common = {
     'X-Requested-With': 'XMLHttpRequest'

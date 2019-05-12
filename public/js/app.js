@@ -850,7 +850,9 @@ window.socket = io('spa-laravel-5-8.tk:443');
 window.Vue = vue__WEBPACK_IMPORTED_MODULE_0___default.a;
 window.axios = axios__WEBPACK_IMPORTED_MODULE_2___default.a;
 window.Form = _utilities_Form__WEBPACK_IMPORTED_MODULE_3__["default"];
-vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(Object(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"])({
+  history: true
+}));
 window.axios.defaults.headers.common = {
   'X-Requested-With': 'XMLHttpRequest'
 };
