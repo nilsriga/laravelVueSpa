@@ -789,7 +789,7 @@ var render = function() {
             ])
           }),
           _vm._v(" "),
-          _c("add-to-stream", { on: { completed: _vm.addStatus } })
+          _c("add-to-stream")
         ],
         2
       )

@@ -31,7 +31,7 @@
 
                 </div>
 
-                <add-to-stream v-on:completed="addStatus"></add-to-stream>
+                <add-to-stream></add-to-stream>
 
             </div>
         </div>
