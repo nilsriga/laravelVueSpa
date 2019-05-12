@@ -846,7 +846,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-window.socket = io('https://' + window.location.hostname + ':443', {
+window.socket = io('https://' + window.location.hostname + ':3000', {
   reconnect: true
 });
 window.Vue = vue__WEBPACK_IMPORTED_MODULE_0___default.a;
@@ -1079,6 +1079,7 @@ var routes = [{
 }];
 /* harmony default export */ __webpack_exports__["default"] = (new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
   routes: routes,
+  mode: 'history',
   linkActiveClass: 'is-active'
 }));
 

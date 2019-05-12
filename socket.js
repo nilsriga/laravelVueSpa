@@ -25,7 +25,7 @@ redisUserEntered.on('message', function (channel, message) {
     io.emit(channel + ":" + message.event, message.data);
 })
 
-server.listen(443);
+server.listen(3000);
 
 // redisNewMessage.on('message', function (channel, message) {
 //     message = JSON.parse(message);
