@@ -188,7 +188,8 @@ __webpack_require__.r(__webpack_exports__);
       return _this.statuses = statuses;
     });
     socket.on('post-channel:App\\Events\\PostSubmitted', function (data) {
-      console.log(data.post); // this.addStatus(data.post);
+      console.log(data.post);
+      this.addStatus(data.post);
     }.bind(this)); // this is the same
     // Status.all()
     //     .then(({data}) => this.statuses = data);
@@ -846,7 +847,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-window.socket = io('https://' + window.location.hostname + '', {
+window.socket = io('https://' + window.location.hostname, {
   reconnect: true
 });
 window.Vue = vue__WEBPACK_IMPORTED_MODULE_0___default.a;
