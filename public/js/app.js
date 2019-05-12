@@ -832,9 +832,38 @@ new Vue({
   !*** ./resources/js/bootstrap.js ***!
   \***********************************/
 /*! no exports provided */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\xampp\\htdocs\\laravelVueSpa\\resources\\js\\bootstrap.js: Unexpected token, expected \",\" (11:19)\n\n\u001b[0m \u001b[90m  9 | \u001b[39mwindow\u001b[33m.\u001b[39m\u001b[33mForm\u001b[39m \u001b[33m=\u001b[39m form\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 | \u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 11 | \u001b[39m\u001b[33mVue\u001b[39m\u001b[33m.\u001b[39muse(\u001b[33mVueRouter\u001b[39m()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 | \u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 13 | \u001b[39mwindow\u001b[33m.\u001b[39maxios\u001b[33m.\u001b[39mdefaults\u001b[33m.\u001b[39mheaders\u001b[33m.\u001b[39mcommon \u001b[33m=\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 14 | \u001b[39m    \u001b[32m'X-Requested-With'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'XMLHttpRequest'\u001b[39m\u001b[0m\n    at Parser.raise (C:\\xampp\\htdocs\\laravelVueSpa\\node_modules\\@babel\\parser\\lib\\index.js:3851:17)\n    at Parser.unexpected (C:\\xampp\\htdocs\\laravelVueSpa\\node_modules\\@babel\\parser\\lib\\index.js:5167:16)\n    at Parser.expect (C:\\xampp\\htdocs\\laravelVueSpa\\node_modules\\@babel\\parser\\lib\\index.js:5153:28)\n    at Parser.parseCallExpressionArguments (C:\\xampp\\htdocs\\laravelVueSpa\\node_modules\\@babel\\parser\\lib\\index.js:6106:14)\n    at Parser.parseSubscript (C:\\xampp\\htdocs\\laravelVueSpa\\node_modules\\@babel\\parser\\lib\\index.js:6016:29)\n    at Parser.parseSubscripts (C:\\xampp\\htdocs\\laravelVueSpa\\node_modules\\@babel\\parser\\lib\\index.js:5935:19)\n    at Parser.parseExprSubscripts (C:\\xampp\\htdocs\\laravelVueSpa\\node_modules\\@babel\\parser\\lib\\index.js:5924:17)\n    at Parser.parseMaybeUnary (C:\\xampp\\htdocs\\laravelVueSpa\\node_modules\\@babel\\parser\\lib\\index.js:5894:21)\n    at Parser.parseExprOps (C:\\xampp\\htdocs\\laravelVueSpa\\node_modules\\@babel\\parser\\lib\\index.js:5781:23)\n    at Parser.parseMaybeConditional (C:\\xampp\\htdocs\\laravelVueSpa\\node_modules\\@babel\\parser\\lib\\index.js:5754:23)\n    at Parser.parseMaybeAssign (C:\\xampp\\htdocs\\laravelVueSpa\\node_modules\\@babel\\parser\\lib\\index.js:5701:21)\n    at Parser.parseExpression (C:\\xampp\\htdocs\\laravelVueSpa\\node_modules\\@babel\\parser\\lib\\index.js:5649:23)\n    at Parser.parseStatementContent (C:\\xampp\\htdocs\\laravelVueSpa\\node_modules\\@babel\\parser\\lib\\index.js:7420:23)\n    at Parser.parseStatement (C:\\xampp\\htdocs\\laravelVueSpa\\node_modules\\@babel\\parser\\lib\\index.js:7291:17)\n    at Parser.parseBlockOrModuleBlockBody (C:\\xampp\\htdocs\\laravelVueSpa\\node_modules\\@babel\\parser\\lib\\index.js:7868:25)\n    at Parser.parseBlockBody (C:\\xampp\\htdocs\\laravelVueSpa\\node_modules\\@babel\\parser\\lib\\index.js:7855:10)\n    at Parser.parseTopLevel (C:\\xampp\\htdocs\\laravelVueSpa\\node_modules\\@babel\\parser\\lib\\index.js:7220:10)\n    at Parser.parse (C:\\xampp\\htdocs\\laravelVueSpa\\node_modules\\@babel\\parser\\lib\\index.js:8863:17)\n    at parse (C:\\xampp\\htdocs\\laravelVueSpa\\node_modules\\@babel\\parser\\lib\\index.js:11135:38)\n    at parser (C:\\xampp\\htdocs\\laravelVueSpa\\node_modules\\@babel\\core\\lib\\transformation\\normalize-file.js:170:34)\n    at normalizeFile (C:\\xampp\\htdocs\\laravelVueSpa\\node_modules\\@babel\\core\\lib\\transformation\\normalize-file.js:138:11)\n    at runSync (C:\\xampp\\htdocs\\laravelVueSpa\\node_modules\\@babel\\core\\lib\\transformation\\index.js:44:43)\n    at runAsync (C:\\xampp\\htdocs\\laravelVueSpa\\node_modules\\@babel\\core\\lib\\transformation\\index.js:35:14)\n    at process.nextTick (C:\\xampp\\htdocs\\laravelVueSpa\\node_modules\\@babel\\core\\lib\\transform.js:34:34)\n    at process._tickCallback (internal/process/next_tick.js:61:11)");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _utilities_Form__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./utilities/Form */ "./resources/js/utilities/Form.js");
+
+
+
+
+window.socket = io('spa-laravel-5-8.tk:443');
+window.Vue = vue__WEBPACK_IMPORTED_MODULE_0___default.a;
+window.axios = axios__WEBPACK_IMPORTED_MODULE_2___default.a;
+window.Form = _utilities_Form__WEBPACK_IMPORTED_MODULE_3__["default"];
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
+window.axios.defaults.headers.common = {
+  'X-Requested-With': 'XMLHttpRequest'
+};
+var token = document.head.querySelector('meta[name="csrf-token"]');
+window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+
+if (token) {
+  window.axios.defaults.headers.common['X-CSRF-TOKEN'] = token.content;
+} else {
+  console.error('CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token');
+}
+
+;
 
 /***/ }),
 
@@ -1050,6 +1079,265 @@ var routes = [{
   routes: routes,
   linkActiveClass: 'is-active'
 }));
+
+/***/ }),
+
+/***/ "./resources/js/utilities/Errors.js":
+/*!******************************************!*\
+  !*** ./resources/js/utilities/Errors.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+var Errors =
+/*#__PURE__*/
+function () {
+  /**
+   * Create a new Errors instance.
+   */
+  function Errors() {
+    _classCallCheck(this, Errors);
+
+    this.errors = {};
+  }
+  /**
+   * Determine if an errors exists for the given field.
+   *
+   * @param {string} field
+   */
+
+
+  _createClass(Errors, [{
+    key: "has",
+    value: function has(field) {
+      return this.errors.hasOwnProperty(field);
+    }
+    /**
+     * Determine if we have any errors.
+     */
+
+  }, {
+    key: "any",
+    value: function any() {
+      return Object.keys(this.errors).length > 0;
+    }
+    /**
+     * Retrieve the error message for a field.
+     *
+     * @param {string} field
+     */
+
+  }, {
+    key: "get",
+    value: function get(field) {
+      if (this.errors[field]) {
+        return this.errors[field][0];
+      }
+    }
+    /**
+     * Record the new errors.
+     *
+     * @param {object} errors
+     */
+
+  }, {
+    key: "record",
+    value: function record(errors) {
+      this.errors = errors;
+    }
+    /**
+     * Clear one or all error fields.
+     *
+     * @param {string|null} field
+     */
+
+  }, {
+    key: "clear",
+    value: function clear(field) {
+      // if (field) {
+      delete this.errors[field]; // return;
+      // }
+      // this.errors = {};
+    }
+  }]);
+
+  return Errors;
+}();
+
+/* harmony default export */ __webpack_exports__["default"] = (Errors);
+
+/***/ }),
+
+/***/ "./resources/js/utilities/Form.js":
+/*!****************************************!*\
+  !*** ./resources/js/utilities/Form.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _utilities_Errors__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utilities/Errors */ "./resources/js/utilities/Errors.js");
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+
+
+var Form =
+/*#__PURE__*/
+function () {
+  /**
+   * Create a new Form instance.
+   *
+   * @param {object} data
+   */
+  function Form(data) {
+    _classCallCheck(this, Form);
+
+    this.originalData = data;
+
+    for (var field in data) {
+      this[field] = data[field];
+    }
+
+    this.errors = new _utilities_Errors__WEBPACK_IMPORTED_MODULE_0__["default"]();
+  }
+  /**
+   * Fetch all relevant data for the form.
+   */
+
+
+  _createClass(Form, [{
+    key: "data",
+    value: function data() {
+      var data = {};
+
+      for (var property in this.originalData) {
+        data[property] = this[property];
+      }
+
+      return data;
+    }
+    /**
+     * Reset the form fields.
+     */
+
+  }, {
+    key: "reset",
+    value: function reset() {
+      for (var field in this.originalData) {
+        this[field] = '';
+      }
+
+      this.errors.clear();
+    }
+    /**
+     * Send a POST request to the given URL.
+     * .
+     * @param {string} url
+     */
+
+  }, {
+    key: "post",
+    value: function post(url) {
+      return this.submit('post', url);
+    }
+    /**
+     * Send a PUT request to the given URL.
+     * .
+     * @param {string} url
+     */
+
+  }, {
+    key: "put",
+    value: function put(url) {
+      return this.submit('put', url);
+    }
+    /**
+     * Send a PATCH request to the given URL.
+     * .
+     * @param {string} url
+     */
+
+  }, {
+    key: "patch",
+    value: function patch(url) {
+      return this.submit('patch', url);
+    }
+    /**
+     * Send a DELETE request to the given URL.
+     * .
+     * @param {string} url
+     */
+
+  }, {
+    key: "delete",
+    value: function _delete(url) {
+      return this.submit('delete', url);
+    }
+    /**
+     * Submit the form.
+     *
+     * @param {string} requestType
+     * @param {string} url
+     */
+
+  }, {
+    key: "submit",
+    value: function submit(requestType, url) {
+      var _this = this;
+
+      return new Promise(function (resolve, reject) {
+        axios[requestType](url, _this.data()).then(function (response) {
+          _this.onSuccess(response.data);
+
+          resolve(response.data);
+        })["catch"](function (error) {
+          _this.onFail(error.response.data);
+
+          reject(error.response.data);
+        });
+      });
+    }
+    /**
+     * Handle a successful form submission.
+     *
+     * @param {object} data
+     */
+
+  }, {
+    key: "onSuccess",
+    value: function onSuccess(data) {
+      this.reset();
+    }
+    /**
+     * Handle a failed form submission.
+     *
+     * @param {object} errors
+     */
+
+  }, {
+    key: "onFail",
+    value: function onFail(errors) {
+      this.errors.record(errors.errors);
+    }
+  }]);
+
+  return Form;
+}();
+
+/* harmony default export */ __webpack_exports__["default"] = (Form);
 
 /***/ }),
 
