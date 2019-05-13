@@ -24,7 +24,7 @@ export default {
 
     created() {
 
-        socket.on('user-entered-chat-channel:App\\Events\\UserEnteredChat', function(data) {
+        socket.on(appName + '-' + 'user-entered-chat-channel:App\\Events\\UserEnteredChat', function(data) {
             this.currentUsers.unshift(data.userIdentifiers);
         }.bind(this));
     },
