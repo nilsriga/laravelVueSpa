@@ -39,6 +39,8 @@
 </template>
 
 <script>
+    console.log(process.env.MIX_APP_NAME);
+
     import moment from 'moment';
     import Status from '../models/Status';
     import AddToStream from '../components/AddToStream.vue'
