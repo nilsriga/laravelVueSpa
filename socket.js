@@ -1,6 +1,6 @@
 var server = require('http').Server();
 var io = require('socket.io')(server);
-// const env = require('dotenv').config();
+const env = require('dotenv').config();
 
 
 var Redis = require('ioredis');
