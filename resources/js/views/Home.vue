@@ -68,7 +68,7 @@
         created() {
             Status.all(statuses => this.statuses = statuses);
 
-            socket.on('post-channel:App\\Events\\PostSubmitted', function(data) {
+            socket.on(appName + '-' + 'post-channel:App\\Events\\PostSubmitted', function(data) {
                 console.log(data.post);
                 this.addStatus(data.post);
                 

@@ -1,15 +1,16 @@
 var server = require('http').Server();
 var io = require('socket.io')(server);
+const env = require('dotenv').config();
 
 
 var Redis = require('ioredis');
 var redisNewMessage = new Redis();
 var redisUserEntered = new Redis();
 
-redisNewMessage.subscribe('post-channel', function() {
+redisNewMessage.subscribe(process.env.APP_NAME + '-' + 'post-channel', function() {
     console.log('connected to new message channel');
 });
-redisUserEntered.subscribe('user-entered-chat-channel', function () {
+redisUserEntered.subscribe(process.env.APP_NAME + '-' + 'user-entered-chat-channel', function () {
     console.log('connected to user entered channel');
 });
 

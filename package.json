@@ -22,6 +22,7 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
+        "dotenv": "^8.0.0",
         "eslint": "^5.16.0",
         "eslint-plugin-vue": "^5.2.2",
         "ioredis": "^4.9.0",
