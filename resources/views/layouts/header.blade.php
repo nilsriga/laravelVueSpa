@@ -13,13 +13,13 @@
     <div class="hero-body">
         <div class="container has-text-centered">
             <p class="title">
-                My Laravel-Vue
+                Laravel-Vuejs
             </p>
             <p class="subtitle">
                 Single Page Application
             </p>
             <p>
-                BETA
+                Real time chat app using socket.io and redis
             </p>
         </div>
     </div>
