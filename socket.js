@@ -6,11 +6,8 @@ var Redis = require('ioredis');
 var redisNewMessage = new Redis();
 var redisUserEntered = new Redis();
 
-var environmentalAppName = 'a';
-
 redisNewMessage.subscribe('post-channel', function() {
     console.log('connected to new message channel');
-    console.log(environmentalAppName);
 });
 redisUserEntered.subscribe('user-entered-chat-channel', function () {
     console.log('connected to user entered channel');
