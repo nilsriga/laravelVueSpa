@@ -14,6 +14,8 @@
 
 <script>
 
+console.log(appName);
+
 export default {
 
     data() {
